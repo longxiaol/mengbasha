@@ -1,0 +1,63 @@
+#footer{
+	top: 1970px;
+}
+#goodList{
+	width: 1200px;
+	height: 1800px;
+	position: absolute;
+	top: 170px;
+	left: 50%;
+	margin-left: -600px;
+}
+	#goodList .jiazaitupian{
+		width: 1200px;
+		height: 1600px;
+	}
+	#goodList .jiazaitupian li{
+		width: 248px;
+		height: 348px;
+		margin-left: 40px;
+		margin-top: 50px;
+		float: left;
+		cursor: pointer;
+		box-shadow: 2px  2px 1px #CCCCCC;
+	}
+	#goodList .jiazaitupian li p{
+		margin-top: 20px;
+		margin-left: 15px;
+		font-size: 14px;
+		color: #666666;
+	}
+	#goodList .jiazaitupian li p:hover{
+		color: #E44715;
+	}
+	
+	#goodList .jiazaitupian li img{
+		width: 248px;
+		height: 248px;
+	}
+	#goodList .jiazaitupian li:hover{
+		box-shadow: 2px  2px 10px #CCCCCC;
+	}
+	#goodList .yeshu{
+		width: 660px;
+		height: 100px;
+		margin-left: 260px;
+		margin-top: 50px;
+	}
+	#goodList .yeshu li{
+		width: 45px;
+		height: 35px;
+		float: left;
+		font-size: 14px;
+		margin-left: 10px;
+		border-radius: 5px;
+		line-height: 35px;
+		text-align: center;
+		background: #CCCCCC;
+		cursor: pointer;
+	}
+	#goodList .yeshu li:hover{
+		background: #ACACAC;
+		color: white;
+	}

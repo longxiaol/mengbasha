@@ -1,0 +1,179 @@
+#header{
+	width: 1050px;
+	height: 124px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -450px;
+}
+
+	#header .header1{
+		height: 25px;
+		width: 100%;
+		border-bottom: 1px solid #ededed;
+	}
+	#header .header2{
+		height: 98px;
+		background: url(../../img/common/images/kdDes.png) no-repeat 666px center;
+	}
+	
+	
+	/*需要用JS修改*/
+	b{
+		position: absolute;
+		top: 23px;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+		height: 5px;
+		background: white;
+		display: none;
+	}
+	#header .header1 ul li {
+		float: left;
+		height: 25px;
+		line-height:25px ;
+		margin:  0 8px;
+		border: 1px solid white;
+		border-bottom: none;
+		cursor: pointer;	
+		position: relative;
+	}
+	/*需要用JS修改*/
+	
+	
+	#header .header1 ul a:hover{
+		color: #f83b45;
+	}
+	#header .header1 .header1left{
+		float: left;
+	}
+	#header .header1 .header1right{
+		float: right;
+	}
+	#header .header1 .header1right li span{
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		height: 15px\9;/*解决IE兼容问题*/
+		background: url(../../img/common/images/headerjian_05.png) no-repeat center;
+		background: url(../../img/common/images/headerjian_05.png) no-repeat center center\9;/*解决IE兼容问题*/
+		margin-left: 4px;
+		transition: 0.3s ease-out;
+	    -webkit-transition: 0.3s ease-out;
+	    -o-transition: 0.3s ease-out;
+	    -moz-transition: 0.3s ease-out;
+	    -ms-transition: 0.3s ease-out;
+	}
+	#header .header1 .header1right img{
+		vertical-align: middle;
+		margin: 0 2px;
+	}
+	
+
+	/*需要用JS修改*/
+	#header .header1 .header1right .wodekadang div{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		width: 70px;
+		height: 60px;
+		line-height: 25px;
+		border: 1px solid #999999;
+		left: -1px;
+		top: 24px;
+		background: white;
+	}
+	#header .header1 .header1right .wodekadang div a{
+		display: inline-block;
+	}
+	#header .header1 .header1right .wodeshoucang div a{
+		display: inline-block;
+	}
+	#header .header1 .header1right .gouwuche div{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		width:310px;
+		height: 40px;
+		line-height: 40px;
+		border: 1px solid #999999;
+		left: -1px;
+		top: 24px;
+		background: white;
+	}
+	#header .header1 .gouwuche div #sp{
+		display: none;
+	}
+	#header .header1 .header1right .wodeshoucang div{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		width: 70px;
+		height: 60px;
+		line-height: 25px;
+		border: 1px solid #999999;
+		left: -1px;
+		top: 24px;
+		background: white;
+	}
+	/*需要用JS修改*/
+	
+	
+	
+	#header .header2{
+		position: relative;
+		line-height: 32px;/*防止在IE浏览器中字体不居中显示*/
+	}
+	#header .header2 input{
+		width: 352px;
+		height: 37px;
+		background: url(../../img/common/images/kadangwang_03.png) no-repeat center;
+		border: none;
+		outline: none;
+		position: absolute;
+		top: 31px;
+		left: 238px;
+		padding-left: 35px;
+		line-height: 37px;
+	}
+	
+	#header .header2 div{
+		width: 42px;
+		height: 32px;
+		position: absolute;
+		top:33px;
+		left: 560px;
+		border: none;
+		cursor: pointer;
+	}
+	.huisou{
+		background: url(../../img/common/images/sousuo_17.png) no-repeat left center;
+	}
+	.hongsou{
+		background: url(../../img/common/images/sousuo1_03.png) no-repeat 1px center;
+	}
+	#header .header2 p{
+		position: absolute;
+		left: 268px;
+		top: 70px;
+	}
+	#header .header2 p span{
+		margin-right:25px;
+	}
+	#header .header2 #tipList{
+		position: absolute;
+		left: 260px;
+		top: 80px;
+		background: rgba(255,255,255,0.85);
+		display: none;
+	}
+	#header .header2 #tipList li{
+		width: 330px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		padding-left: 10px;
+		border-bottom: 1px solid gainsboro;
+	}
+	

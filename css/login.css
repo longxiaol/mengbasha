@@ -1,0 +1,195 @@
+/*遮罩*/
+#login .loginBox{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+	position: fixed;
+	z-index: 1000;
+	display: none;
+}
+/*遮罩*/
+
+/*注册和登录*/
+#login .loginBox .zhuce{
+	width: 1010px;
+	height: 615px;
+	background: white;
+	position: absolute;
+	z-index: 1001;
+	right: -1010px;
+}
+/*注册和登录*/
+
+/*关闭登录注册*/
+#login .loginBox .zhuce .cloginBox{
+	width: 40px;
+	height: 40px;
+	background: #e14835;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+/*关闭登录注册*/
+
+/*登录*/
+#login .loginBox .zhuce .denglu{
+	width: 556px;
+	height: 288px;
+	position: absolute;
+	left: 50%;
+	top: 77px;
+	margin-left: -278px;
+}
+/*登录*/
+#login .loginBox .zhuce .denglu .dengluL{
+	width: 200px;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+}
+#login .loginBox .zhuce .denglu .dengluL p{
+	font-size: 18px;
+	color: #000000;
+}
+#login .loginBox .zhuce .denglu .dengluL ul li p a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#login .loginBox .zhuce .denglu .dengluL p span{
+	font-size: 14px;
+	color: #999999;
+}
+#login .loginBox .zhuce .denglu .dengluL ul li{
+	float: left;
+	margin-top: 20px;
+	cursor: pointer;
+}
+#login .loginBox .zhuce .denglu .dengluL ul li p{
+	font-size: 14px;
+	text-align: center;
+}
+#login .loginBox .zhuce .denglu .dengluR{
+	float: left;
+	padding-left: 30px;
+	color: #999999;
+	width: 325px;
+	height:288px;
+}
+#login .loginBox .zhuce .denglu .dengluR p{
+	font-size: 18px;
+	color: #000000;
+}
+#login #dL, #login #psd{
+	height: 35px;
+	width: 270px;
+	margin-top: 30px;
+	display: block;
+	padding-left: 30px;
+	border: 1px solid #ACACAC;
+}
+#login #dL{
+	background: url(../img/login/images/youxianghemima_07.png) no-repeat 10px center;
+}
+#login #psd{
+	background: url(../img/login/images/youxianghemima_11.png) no-repeat 10px center;
+}
+#login #checkb{
+	margin-top: 30px;
+}
+#login #btn{
+	width: 300px;
+	height: 50px;
+	background: #f6614b;
+	margin-top: 5px;
+	color: white;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+#login .dengluR em{
+	font-style: normal;
+	color: #000000;
+}
+#login .dengluR em span{
+	margin-left: 150px;
+	cursor: pointer;
+	color: #666666;
+}
+#login .dengluR em a{
+	color: #666666;
+}
+#login .dengluR a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+#login .loginBox .zhuce .denglu .zhuceR{
+	float: left;
+	padding-left: 30px;
+	color: #999999;
+	width: 325px;
+	height:288px;
+}
+#login .loginBox .zhuce .denglu .zhuceR p{
+	font-size: 18px;
+	color: #000000;
+}
+#login #dL, #login #psd{
+	height: 35px;
+	width: 270px;
+	margin-top: 30px;
+	display: block;
+	padding-left: 30px;
+	border: 1px solid #ACACAC;
+}#login #dL{
+	background: url(../img/login/images/youxianghemima_07.png) no-repeat 10px center;
+}
+#login .loginBox .zhuce .zhuceR #psd{
+	margin-bottom: 30px;
+	background: url(../img/login/images/youxianghemima_11.png) no-repeat 10px center;
+}
+#login #checkb{
+	margin-top: 30px;
+}
+#login #btn{
+	width: 300px;
+	height: 50px;
+	background: #f6614b;
+	margin-top: 5px;
+	color: white;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+#login .zhuceR em{
+	font-style: normal;
+	color: #000000;
+}
+#login .zhuceR em span{
+	margin-left: 150px;
+	cursor: pointer;
+	color: #666666;
+}
+#login .zhuceR em a{
+	color: #666666;
+}
+#login .zhuceR a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#login .loginBox .zhuce .denglu .dengluR{
+	display: block;
+}
+#login .loginBox .zhuce .denglu .zhuceR{
+	display: none;
+}
+#dL,#psd{
+	outline-color: blue;
+}
+

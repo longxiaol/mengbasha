@@ -1,0 +1,316 @@
+#shopCar{
+	height: auto;
+	width: 1000px;
+	margin: 0 auto;
+}
+	#shopCar .logo{
+		height: 93px;
+		background: url(../img/shopCar/images/mailogo_02.png) no-repeat;
+	}
+	#shopCar .logo ul li{
+		float: left;
+		list-style: none;
+	}
+	#shopCar .logo .tijiao{
+		margin-left: 650px;
+		padding-top: 35px;
+	}
+	#shopCar .logo .tijiao li{
+		margin-left: 20px;
+		font-size: 12px;
+	}
+	#shopCar .logo .tijiaotip{
+		width: 200px;
+		height: 20px;
+		margin-left: 700px;
+	}
+	#shopCar .logo .tijiaotip li{
+		width: 14px;
+		height: 14px;
+		border-radius: 7px;
+		background: #ACACAC;
+		margin-top:3px;
+		margin-right: 50px;
+	}
+	#shopCar .logo .tijiaotip .active{
+		background: url(../img/shopCar/images/yuan_05.png) no-repeat 0 -1px;
+	}
+	#shopCar .ptip{
+		height: 50px;
+		line-height: 50px;
+		color: #999999;
+	}
+	#shopCar .xuanze{
+		width: 998px;
+		height: 35px;
+		border: 1px solid #ACACAC;
+		line-height: 35px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	#shopCar .xuanze ul li{
+		float: left;
+	}
+	#shopCar .xuanze ul .quanxuan{
+		margin-left: 15px;
+	}
+	#shopCar .xuanze ul .shangpingxinxi{
+		margin-left: 140px;
+	}
+	#shopCar .xuanze ul .danjia{
+		margin-left: 150px;
+	}
+	#shopCar .xuanze ul .shuliang{
+		margin-left: 80px;
+	}
+	#shopCar .xuanze ul .zongji{
+		margin-left: 80px;
+	}
+	#shopCar .xuanze ul .caozuo{
+		margin-left: 130px;
+	}
+	#shopCar .lianxi{
+		margin-top: 20px;
+	}
+	#shopCar .lianxi #dianpu{
+		margin-right: 35px;
+		margin-left: 25px;
+	}
+	#shopCar .lianxi a:hover{
+		text-decoration: underline;
+	}
+	#shopCar .lianxi span a:hover{
+		text-decoration: none;
+	}
+	#shopCar .lianxi span img{
+		vertical-align: middle;
+	}
+	#shopCar .lianxi span{
+		border: 1px solid white;
+		padding-left: 25px;
+		cursor: pointer;
+		background: url(../img/goodDetail/images/smallkefu_11.png) no-repeat left center;
+	}
+	#shopCar .lianxi span:hover{
+		border: 1px solid #ACACAC;
+	}
+	#shopCar .shangping{
+		width: 998px;
+		border: 1px solid #ACACAC;
+		margin-top: 20px;
+	}
+	#shopCar .shangping ul{
+		width: 978px;
+		height: 90px;
+	}
+	#shopCar .shangping ul li{
+		float: left;
+		height: 90px;
+	}
+	#shopCar .shangping ul li:first-child{
+		margin-left: 20px;
+		line-height: 90px;
+	}
+	#shopCar .shangping ul li:nth-child(2){
+		width: 90px;
+		height: 90px;
+		margin-left: 50px;
+	}
+	#shopCar .shangping ul li:nth-child(2) img{
+		width: 90px;
+		height: 90px;
+	}
+	#shopCar .shangping ul li:nth-child(3){
+		width: 190px;
+		padding-left: 20px;
+	}
+	#shopCar .shangping ul li:nth-child(3) a:hover{
+		text-decoration: underline;
+	}
+	#shopCar .shangping ul li:nth-child(3) p{
+		color: #999999;
+		padding-top: 10px;
+	}
+	#shopCar .shangping ul li:nth-child(4){
+		width: 60px;
+		height: 90px;
+		margin-left: 10px;
+		line-height: 90px;
+		text-align: center;
+	}
+	#shopCar .shangping ul li:nth-child(5){
+		width: 180px;
+		height: 90px;
+		margin-left: 5px;
+	}
+	#shopCar .shangping ul li:nth-child(5) div{
+		float: left;
+		width: 40px;
+		height: 25px;
+		border-bottom: 1px solid #999999;
+		border-top: 1px solid #999999;
+		line-height: 25px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	#shopCar .shangping ul li:nth-child(5) .jian{
+		width: 20px;
+		height: 25px;
+		border-left: 1px solid #999999;
+		border-right: 1px solid #999999;
+		line-height: 25px;
+		text-align: center;
+		margin-left: 48px;
+		cursor: pointer;
+	}
+	#shopCar .shangping ul li:nth-child(5) div input{
+		width: 40px;
+		height: 25px;
+		border: none;
+		outline: none;
+		text-align: center;
+	}
+	#shopCar .shangping ul li:nth-child(5) .jia{
+		width: 20px;
+		height: 25px;
+		border-left: 1px solid #999999;
+		border-right: 1px solid #999999;
+		line-height: 25px;
+		text-align: center;
+		cursor: pointer;
+	}
+	#shopCar .shangping ul li:nth-child(5) .jia:hover,
+	#shopCar .shangping ul li:nth-child(5) .jian:hover{
+		color: red;
+	}
+	#shopCar .shangping ul li:nth-child(6){
+		width: 60px;
+		height: 90px;
+		margin-left: 10px;
+		line-height: 90px;
+		text-align: center;
+		color: red;
+		font-weight: bold;
+	}
+	#shopCar .shangping ul li:nth-child(7){
+		width: 30px;
+		height: 90px;
+		margin-left: 148px;
+		line-height: 90px;
+		text-align: center;
+	}
+	#shopCar .shangping ul li:nth-child(7) a{
+		color: #999999;
+	}
+	#shopCar .shangping ul li:nth-child(7) a:hover{
+		text-decoration: underline;
+		color: #666666;
+	}
+	#shopCar .tishi{
+		margin-left: 600px;
+	}
+	#shopCar .tishi .xianshijiage{
+		margin-left: 50px;
+	}
+	#shopCar .tishi .xianshijiage span{
+		color: palevioletred;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	#shopCar .zuihou{
+		font-size: 18px;
+		font-weight: bold;
+		margin-left: 820px;
+		margin-top: 20px;
+		padding-bottom: 10px;
+	}
+	#shopCar .zuihou .jixu a{
+		color: #ACACAC;
+	}
+	#shopCar .zuihou .jixu:hover a{
+		text-decoration: underline;
+	}
+	#shopCar .zuihou .jiezhang{
+		margin-left: 10px;
+		width: 90px;
+		background: #f6614b;
+		padding: 6px 18px;
+		border-radius: 5px;
+		color: white;
+		cursor: pointer;
+	}
+	#shopCar .zuihou .jiezhang:hover{
+		background: red;
+		color: #CCCCCC;
+	}
+	#shopCar .tuixiaotxt{
+		width: 280px;
+		height: 40px;
+		border: 1px solid #CCCCCC;
+		font-size: 18px;
+		line-height: 40px;
+		text-align: center;
+		border-bottom: none;
+	}
+	#shopCar .tuixiaotxt a{
+		color: #666666;
+	}
+	#shopCar .tuixiao{
+		width: 998px;
+		height: 253px;
+		border: 1px solid #CCCCCC;
+	}
+	#shopCar .tuixiao li{
+		width: 145px;
+		height: 220px;
+		float: left;
+		margin: 20px 0 15px 18px;
+	}
+	#shopCar .tuixiao li img{
+		width: 140px;
+		height: 140px;
+		border: 1px solid #CCCCCC;
+		cursor: pointer;
+	}
+	#shopCar .tuixiao li p{
+		color: #999999;
+	}
+	#shopCar .tuixiao li h4{
+		font-size: 14px;
+		text-align: center;
+		color: orangered;
+	}
+	#shopCar .shopcarfoot{
+		margin-top: 50px;
+		color: #acacac;
+		text-align: center;
+	}
+#qingmai{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	display: none;
+}
+#qingmai .maitip{
+	width: 400px;
+	height: 200px;
+	background:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 16px;
+	line-height: 200px;
+	text-align: center;
+	margin: -100px 0 0 -200px;
+}
+#qingmai .maitip .maitipguan{
+	width: 20px;
+	height: 20px;
+	background: #E34917;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 20px;
+	cursor: pointer;
+}

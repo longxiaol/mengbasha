@@ -1,0 +1,711 @@
+body{
+	background: #f5f5f5;
+}
+#footer{
+	top: 7720px;
+}
+#main{
+	height: 7550px;
+	width: 1200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 170px;
+}
+
+		/*固定*/
+		#main .guding{
+			width: 48px;
+			height: 280px;
+			position: fixed;
+			right: 6px;
+			bottom: 15px;
+		}
+				#main .guding .box1{
+					height: 70px;
+					line-height: 17px;
+				}
+				#main .guding .box2{
+					height: 38px;
+					line-height: 18px;
+				}
+				#main .guding .box{
+					width: 38px;
+					border: 1px solid #cccccc;
+					margin: 7px auto;
+					font-size: 14px;
+					text-align: center;
+					background: #eeeeee;
+				}
+				#main .guding .box3{
+					display: none;
+					background: url(../img/common/images/guding_08.png);
+				}
+				#main .guding .xiaoshi{
+					position: fixed;
+					right: 80px;
+					bottom: 50px;
+					display: none;
+				}
+	
+		/*菜单和轮播*/
+		#main .banner{
+			height: 500px;
+		}
+				/*菜单*/
+				#main .banner .caiDan{
+					width: 150px;
+					height: 500px;
+					float: left;
+				}
+				#main .banner .caiDan .caiDanT{
+					padding-top: 15px;
+					height: 94px;
+					border-bottom: 1px solid #CCCCCC;
+				}
+				#main .banner .caiDan .caiDanT a{
+					line-height: 22px;
+					display: inline-block;
+					margin-right: 20px;
+					color: #666666;
+				}
+				#main .banner .caiDan .caiDanB{
+					padding-top: 15px;
+				}
+				#main .banner .caiDan .caiDanB ul{
+					position: relative;
+				}
+				#main .banner .caiDan .caiDanB ul li{
+					line-height: 35px;
+					width: 140px;
+					padding-left: 10px;
+					cursor: pointer;
+				
+				}
+				#main .banner .caiDan .caiDanB ul li a{
+					color: #666666;
+				}
+				#main .banner .caiDan .caiDanB ul li span{
+					width: 0;
+					height: 0;
+					border: 5px solid #e44715;
+					border-left-color:white ;
+					float: right;
+					margin-top: 13px;
+					display: none;/*display: inline-block;*/
+				}
+				#main .banner .caiDan .caiDanB ul li:hover{
+					background-color: #e44715;
+					
+				}
+				
+				
+				
+				
+				/*JS处理*/
+				#main .banner .caiDan .caiDanB ul li ol{
+					display: none;
+					width: 160px;
+					height: 460px;
+					background: rgba(255,255,255,0.5);
+					position: absolute;
+					left: 150px;
+					top: -131px;
+					padding-left: 20px;
+					z-index: 10;
+				}
+				#main .banner .caiDan .caiDanB ul li ol li{
+					
+					width: 130px;
+					
+				}
+				#main .banner .caiDan .caiDanB ul li ol li:hover{
+					
+					background: #999999;
+					
+				}
+				/*JS处理*/
+				
+				
+				#main .banner .caiDan h3{
+					font-size: 16px;
+				}
+				#main .banner .lunBoTu{
+					float: left;
+					width: 820px;
+					margin: 0 20px;
+					margin-top: 15px;
+					position: relative;
+					height: 460px;
+				}
+				#main .banner .lunBoTu .tupian{
+					width: 820px;
+					height: 460px;
+					cursor: pointer;
+				}
+				#main .banner .lunBoTu .tupian li{
+					position: absolute;
+					opacity: 0;
+					filter: alpha(opacity=0);
+				}
+				#main .banner .lunBoTu .tupian .active{
+					opacity: 1;
+					filter: alpha(opacity=1);
+				}
+				#main .banner .lunBoTu .yuandian{
+					position: absolute;
+					bottom: 30px;
+					left: 370px;
+					z-index: 5;
+				}
+				#main .banner .lunBoTu .yuandian li{
+					width: 12px;
+					height: 12px;
+					float: left;
+					margin: 0 5px;
+					background: #999999;
+					border-radius: 6px;
+					cursor: pointer;
+				}
+				#main .banner .lunBoTu .yuandian .dingshibian{
+					background: #f4604b;
+				}
+				#main .banner .lunBoTu .prev{
+					position: absolute;
+					left: 100px;
+					top: 180px;
+					width: 60px;
+					height: 60px;
+					font-size: 60px;
+					line-height: 55px;
+					text-align: center;
+					color: white;
+					background: rgba(0,0,0,0.3);
+					display: none;
+					z-index: 5;
+				}
+				#main .banner .lunBoTu .prev:hover{
+					background: rgba(0,0,0,0.5);
+				}
+				#main .banner .lunBoTu .next{
+					position: absolute;
+					right: 100px;
+					top: 180px;
+					width: 60px;
+					height: 60px;
+					font-size: 60px;
+					line-height: 55px;
+					text-align: center;
+					color: white;
+					background: rgba(0,0,0,0.3);
+					display: none;
+					z-index: 5;
+				}
+				#main .banner .lunBoTu .next:hover{
+					background: rgba(0,0,0,0.5);
+				}
+				#main .banner .bannerR{
+					width: 190px;
+					height: 485px;
+					margin-top: 15px;
+					float: left;
+				}
+				#main .banner .bannerRT{
+					margin-bottom: 18px;
+				}
+	
+	
+		#main .tuiJian{
+			height: 915px;
+		}
+				#main .tuiJian ul li{
+					width: 285px;
+					height: 355px;
+					float: left;
+					margin-right: 20px;
+				}
+				#main .tuiJian p{
+					font-size: 20px;
+					font-weight: bold;
+					line-height: 60px;
+				}
+				#main .tuiJian p span{
+					font-size: 12px;
+					font-weight: normal;
+					margin-left: 15px;
+					color: #999999;
+				}
+				#main .tuiJian ul .nomargin{
+					margin-right: 0;
+				}
+				#main .tuiJian ul li img{
+					width: 285px;
+					height: 280px;
+					cursor: pointer;
+				}
+				#main .tuiJian ul li p{
+					font-size: 14px;
+					color: #666666;
+					line-height: 40px;
+				}
+				#main .tuiJian ul li p span{
+					margin-left:170px ;
+					font-size: 12px;
+				}
+				#main .tuiJian ul li a{
+					color: #666666;
+					line-height: 14px;
+					font-weight: normal;
+				}
+				#main .tuiJian ul li a:hover{
+					color: #f4604b;
+				}
+				#main .tuiJian .guangGao img{
+					cursor: pointer;
+				}
+				#main .tuiJian .guangGao .marginleft10{
+					margin-left: 6px;
+				}
+	
+	
+		#main .louTi{
+			height: 49px;
+			width: 100%;
+			position: relative;
+		}
+			#main .louTi div{
+				height: 2px;
+				background: #F5F5F5;
+				width: 10000000px;
+				position: absolute;
+				left: 50%;
+				margin-left: -5000000px;
+			}
+			#main .louTi ul{
+				height: 45px;
+			}
+				#main .louTi ul li{
+					float: left;
+					font-size: 16px;
+					line-height: 45px;
+					height: 45px;
+					width: 130px;
+					text-align: center;
+					cursor: pointer;
+					color: #666666;
+					margin: 0 2px;
+				}
+				#main .louTi ul li:hover{
+					background: #e44715;
+					color: white;
+				}
+			#main .louTi ul	li.bg{
+					background: #e44715;
+					color: white;
+				}
+	
+		#main .height1260{
+			height: 1260px;
+		}
+		#main .height860{
+			height: 860px;
+		}
+		
+		
+		#main .srlw{
+			overflow: hidden;
+		}
+				#main .srlw h2{
+					font-size: 28px;
+					line-height: 68px;
+				}
+				#main .srlw li{
+					width: 285px;
+					height: 370px;
+					float: left;
+					margin-right: 20px;
+					margin-bottom: 27px;
+					box-shadow: 2px  2px 1px #CCCCCC; 
+				}
+				#main .srlw li img{
+					cursor: pointer;
+					width: 285px;
+					height: 280px;
+				}
+				#main .srlw li:hover{
+					
+					box-shadow: 2px  2px 5px #ACACAC; 
+				}
+				#main .srlw .nomargin{
+					margin-right: 0;
+				}
+				#main .srlw .li2bei{
+					width: 587px;
+					float: left;
+					height: 368;
+				}
+				#main .srlw .li2bei img{
+					width: 587px;
+					height: 368px;
+				}
+				#main .srlw .genheight img{
+					height: 368px;
+				}
+				#main .srlw li p{
+					font-size: 16px;
+					color: #666666;
+					padding-left: 18px;
+					line-height: 40px;
+				}
+				#main .srlw li p span{
+					margin-left:132px ;
+					font-size: 12px;
+					color: #999999;
+				}
+				#main .srlw li p span:hover{
+					color: #F83B45;
+				}
+				#main .srlw .shenglve a{
+					color: #999999;
+					line-height: 14px;
+					padding-left: 18px;
+					font-weight: normal;
+					display: block;
+					width: 250px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+		
+		#main .bzxp{
+			overflow: hidden;
+		}
+				#main .bzxp h2{
+					font-size: 28px;
+					line-height: 68px;
+				}
+				#main .bzxp li{
+					width: 285px;
+					height: 370px;
+					float: left;
+					margin-right: 20px;
+					margin-bottom: 27px;
+					box-shadow: 2px  2px 1px #CCCCCC; 
+				}
+				#main .bzxp li img{
+					cursor: pointer;
+					width: 285px;
+					height: 280px;
+				}
+				#main .bzxp .li2bei img{
+					width: 587px;
+					height: 368px;
+				}
+				#main .bzxp .genheight img{
+					height: 368px;
+				}
+				#main .bzxp li:hover{
+					
+					box-shadow: 2px  2px 5px #ACACAC; 
+				}
+				#main .bzxp .nomargin{
+					margin-right: 0;
+				}
+				#main .bzxp .li2bei{
+					width: 587px;
+					float: left;
+					height: 368;
+				}
+				#main .bzxp li p{
+					font-size: 16px;
+					color: #666666;
+					padding-left: 18px;
+					line-height: 40px;
+				}
+				#main .bzxp li p span{
+					margin-left:132px ;
+					font-size: 12px;
+					color: #999999;
+				}
+				#main .bzxp li p span:hover{
+					color: #F83B45;
+				}
+				#main .bzxp .shenglve a{
+					color: #999999;
+					line-height: 14px;
+					padding-left: 18px;
+					font-weight: normal;
+					display: block;
+					width: 250px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+		#main .snv{
+			overflow: hidden;
+		}
+				#main .snv h2{
+					font-size: 28px;
+					line-height: 68px;
+				}
+				#main .snv li{
+					width: 285px;
+					height: 370px;
+					float: left;
+					margin-right: 20px;
+					margin-bottom: 27px;
+					box-shadow: 2px  2px 1px #CCCCCC; 
+				}
+				#main .snv li img{
+					cursor: pointer;
+					width: 285px;
+					height: 280px;
+				}
+				#main .snv .li2bei img{
+					width: 587px;
+					height: 368px;
+				}
+				#main .snv .genheight img{
+					height: 368px;
+				}
+				#main .snv li:hover{
+					
+					box-shadow: 2px  2px 5px #ACACAC; 
+				}
+				#main .snv .nomargin{
+					margin-right: 0;
+				}
+				#main .snv .li2bei{
+					width: 587px;
+					float: left;
+					height: 368;
+				}
+				#main .snv li p{
+					font-size: 16px;
+					color: #666666;
+					padding-left: 18px;
+					line-height: 40px;
+				}
+				#main .snv li p span{
+					margin-left:132px ;
+					font-size: 12px;
+					color: #999999;
+				}
+				#main .snv li p span:hover{
+					color: #F83B45;
+				}
+				#main .snv .shenglve a{
+					color: #999999;
+					line-height: 14px;
+					padding-left: 18px;
+					font-weight: normal;
+					display: block;
+					width: 250px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+		#main .snan{
+			overflow: hidden;
+		}
+				#main .snan h2{
+					font-size: 28px;
+					line-height: 68px;
+				}
+				#main .snan li{
+					width: 285px;
+					height: 370px;
+					float: left;
+					margin-right: 20px;
+					margin-bottom: 27px;
+					box-shadow: 2px  2px 1px #CCCCCC; 
+				}
+				#main .snan li img{
+					cursor: pointer;
+					width: 285px;
+					height: 280px;
+				}
+				#main .snan .li2bei img{
+					width: 587px;
+					height: 368px;
+				}
+				#main .snan .genheight img{
+					height: 368px;
+				}
+				#main .snan li:hover{
+					
+					box-shadow: 2px  2px 5px #ACACAC; 
+				}
+				#main .snan .nomargin{
+					margin-right: 0;
+				}
+				#main .snan .li2bei{
+					width: 587px;
+					float: left;
+					height: 368;
+				}
+				#main .snan li p{
+					font-size: 16px;
+					color: #666666;
+					padding-left: 18px;
+					line-height: 40px;
+				}
+				#main .snan li p span{
+					margin-left:132px ;
+					font-size: 12px;
+					color: #999999;
+				}
+				#main .snan li p span:hover{
+					color: #F83B45;
+				}
+				#main .snan .shenglve a{
+					color: #999999;
+					line-height: 14px;
+					padding-left: 18px;
+					font-weight: normal;
+					display: block;
+					width: 250px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+	
+		#main .gouLiang{
+			overflow: hidden;
+		}
+				#main .gouLiang h2{
+					font-size: 28px;
+					line-height: 68px;
+				}
+				#main .gouLiang li{
+					width: 285px;
+					height: 370px;
+					float: left;
+					margin-right: 20px;
+					margin-bottom: 27px;
+					box-shadow: 2px  2px 1px #CCCCCC; 
+				}
+				#main .gouLiang li img{
+					cursor: pointer;
+					width: 285px;
+					height: 280px;
+				}
+				#main .gouLiang .li2bei img{
+					width: 587px;
+					height: 368px;
+				}
+				#main .gouLiang .genheight img{
+					height: 368px;
+				}
+				#main .gouLiang li:hover{
+					
+					box-shadow: 2px  2px 5px #ACACAC; 
+				}
+				#main .gouLiang .nomargin{
+					margin-right: 0;
+				}
+				#main .gouLiang .li2bei{
+					width: 587px;
+					float: left;
+					height: 368;
+				}
+				#main .gouLiang li p{
+					font-size: 16px;
+					color: #666666;
+					padding-left: 18px;
+					line-height: 40px;
+				}
+				#main .gouLiang li p span{
+					margin-left:132px ;
+					font-size: 12px;
+					color: #999999;
+				}
+				#main .gouLiang li p span:hover{
+					color: #F83B45;
+				}
+				#main .gouLiang .shenglve a{
+					color: #999999;
+					line-height: 14px;
+					padding-left: 18px;
+					font-weight: normal;
+					display: block;
+					width: 250px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+	
+		#main .fenLei{
+			height:500px;
+			width: 1198px;
+			border: 1px solid #ebebeb;
+			background: #FFFFFF;
+		}
+				#main .fenLei .fenLeiL{
+					float: left;
+					width: 300px;
+					height: 450px;
+					border-right: 1px solid #CCCCCC;
+					margin-top: 25px;
+					margin-left: 20px;
+				}
+				#main .fenLei .fenLeiL h3{
+					font-size: 22px;
+					line-height: 70px;
+				}
+				#main .fenLei .fenLeiL h4{
+					font-size: 14px;
+				}
+				#main .fenLei .fenLeiL ul li{
+					margin-bottom: 26px;
+				}
+				#main .fenLei .fenLeiL ul li a{
+					display: inline-block;
+					margin-left: 15px;
+					color: #999999;
+					line-height: 24px;
+				}
+				#main .fenLei .fenLeiR{
+					float: left;
+					width: 857px;
+					height: 450px;
+					margin-top: 25px;
+					padding-left: 20px;
+				}
+				#main .fenLei .fenLeiR h3{
+					font-size: 22px;
+					line-height: 70px;
+				}
+				#main .fenLei .fenLeiR ul{
+					float: left;
+					width: 280px;
+					margin-left: 5px;
+				}
+				#main .fenLei .fenLeiR ul h4{
+					font-size: 14px;
+				}
+				#main .fenLei .fenLeiR ul li{
+					margin-bottom: 50px;
+				}
+				#main .fenLei .fenLeiR ul li a{
+					color: #999999;
+					line-height: 24px;
+				}
+@font-face {font-family: 'iconfont';
+    src: url(iconfont.eot); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+    }
+    .hongzi{
+    	color: #f25e4b !important;
+    }

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>shopcar</title>
+	<link rel="stylesheet" type="text/css" href="../css/common/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/shopCar.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+</head>
+<body>
+	<div id="qingmai">
+		<div class="maitip">
+			请选择你要买的商品
+			<div class="maitipguan">x</div>
+		</div>
+	</div>
+	<div id="login"></div>
+	<div id="shopCar">
+		<div class="logo">
+			<ul class="tijiao">
+				<li>我的购物车</li>
+				<li>核对信息</li>
+				<li>成功提交订单</li>
+			</ul>
+			<ul class="tijiaotip">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<p class="ptip">现在<a href="##">登录</a>，购物车中的商品将永久保存</p>
+		<div class="xuanze">
+			<ul>
+				<li class="quanxuan"><input type="checkbox" name="quanxuan" id="quanxuan"/>全选</li>
+				<li class="shangpingxinxi">商品信息</li>
+				<li class="danjia">单价（元）</li>
+				<li class="shuliang">数量</li>
+				<li class="zongji">总计（元）</li>
+				<li class="caozuo">操作</li>
+			</ul>
+		</div>
+		<div class="lianxi">
+			<input type="checkbox" name="dianpu" id="dianpu" value="" />
+			店铺：
+			<a href="##">卡当自营店</a>
+			<span>联系客服</a></span>
+		</div>
+		<div class="shangping">
+			<ul>
+				<li><input type="checkbox"/></li>
+				<li><img src="../img/goodDetail/images/malongka01_01.jpg"/></li>
+				<li>
+					<a href="##">
+						限量版马卡龙充电式多功能移动电源 精致小巧一手掌握
+					</a>
+					<p>白色</p>
+				</li>
+				<li>44444.44</li>
+				<li>
+					<div class="jian">-</div>
+					<div><input type="text" value="1"/></div>
+					<div class="jia">+</div>
+				</li>
+				<li>4444.44</li>
+				<li><a href="##">删除</a></li>
+			</ul>
+			<!--<ul>
+				<li><input type="checkbox"/></li>
+				<li><img src="../img/goodDetail/images/malongka01_01.jpg"/></li>
+				<li>
+					<a href="##">
+						限量版马卡龙充电式多功能移动电源 精致小巧一手掌握
+					</a>
+					<p>白色</p>
+				</li>
+				<li>44444.44</li>
+				<li>
+					<div class="jian">-</div>
+					<div><input type="text" value="1"/></div>
+					<div class="jia">+</div>
+				</li>
+				<li>4444.44</li>
+				<li><a href="##">删除</a></li>
+			</ul>-->
+		</div>
+		<div class="tishi">
+			<input type="checkbox" name="huodaofukuan" id="huodaofukuan" />货到付款
+			<span class="xianshijiage">商品金额（不含运费和优惠）：￥<span>0.00</span></span>
+		</div>
+		<div class="zuihou">
+			<span class="jixu"><a href="index.html">继续购物</a></span>
+			<span class="jiezhang">去结算</span>
+		</div>
+		<div class="tuixiaotxt">
+			<a href="##">购买了同样礼品的用户还购买了</a>
+		</div>
+		<div class="tuixiao">
+			<li>
+				<img src="../img/shopCar/images/tuixiao1.jpg"/>
+				<p>慢回弹记忆枕头颈椎保健枕颈椎护颈枕安眠记忆棉</p>
+				<h4>￥169.00</h4>
+			</li>
+			<li>
+				<img src="../img/shopCar/images/tuixiao2.jpg"/>
+				<p>蝴蝶结爱恋 蓝玉髓粉玉髓 天然石手链</p>
+				<h4>￥169.00</h4>
+			</li>
+			<li>
+				<img src="../img/shopCar/images/tuixiao3.jpg"/>
+				<p>甜美兔毛球 100%丝光羊毛围巾披肩 加长加厚保</p>
+				<h4>￥169.00</h4>
+			</li>
+			<li>
+				<img src="../img/shopCar/images/tuixiao4.jpg"/>
+				<p>100%羊毛纯色围巾披肩 加大加厚保暖不定制</p>
+				<h4>￥169.00</h4>
+			</li>
+			<li>
+				<img src="../img/shopCar/images/tuixiao5.jpg"/>
+				<p>风情万种 100%桑蚕丝丝巾 玫瑰花礼盒 阳光下围</p>
+				<h4>￥169.00</h4>
+			</li>
+			<li>
+				<img src="../img/shopCar/images/tuixiao6.jpg"/>
+				<p>特制纱线手感柔软 加长加厚针织围巾帽子手套三</p>
+				<h4>￥169.00</h4>
+			</li>
+		</div>
+		<div class="shopcarfoot">
+			Copyright © 2006-2014 kadang.com 网上经营许可证号：浙B2-20140235
+		</div>
+	</div>
+	<script src="../lib/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		loadHtml("login.html", "login");
+	</script>
+	<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/shopCar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../lib/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
